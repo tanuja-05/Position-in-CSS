@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+       img{
+        height: 250px;
+        width: 250px;
+        margin-bottom: 20px;
+        padding: 20px;
+       }
+       .main{
+        position: relative;
+       }
+       .cards{
+        display: block;
+        max-width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 60px;
+        padding: 50px;
+       
+       }
+       .c1{
+        z-index: 1;
+        border: 4px solid black;
+        background-color: #00b7ff;
+        top: 10px;
+        left: 60px;
+       }
+       .c2{
+        z-index: 2;
+        top: 120px;
+        left: 110px;
+        border: 4px solid black;
+        background-color: #3cff00;
+       }
+       .c3{
+        z-index: 3;
+        top: 230px;
+        left: 160px;
+        border: 4px solid black;
+        background-color: #f5f90a;
+       }
+       .cards:hover{
+        z-index: 4;
+       }
+    </style>
+</head>
+<body>
+    <div class="main"><h1>Hover To Unveil The Pokemon</h1>
+    <div class="cards c1"><h2>Card 1</h2><img class="p" src="./realpoke.png" alt=""></div>
+    <div class="cards c2"><h2>Card 2</h2><img class="p" src="./poke.png" alt=""></div>
+    <div class="cards c3"><h2>Card 3</h2><img class="p" src="./pokemon 1.png" alt=""></div>
+    
+    
+    </div>
+</body>
+</html>
